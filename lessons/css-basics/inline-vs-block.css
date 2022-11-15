@@ -1,3 +1,7 @@
 .outline-box {
   outline: 3px solid red;
 }
+
+div > a {
+  background-color: green;
+}
