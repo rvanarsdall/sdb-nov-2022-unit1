@@ -28,3 +28,13 @@ body {
   left: 54px;
   top: 18px;
 }
+
+.mouth {
+  width: 30px;
+  height: 10px;
+  background-color: black;
+  margin: 16px;
+  top: 16px;
+  left: 16px;
+  position: relative;
+}
