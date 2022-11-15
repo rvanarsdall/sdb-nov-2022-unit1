@@ -5,10 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inline vs Block Examples</title>
+    <!-- Styling Example on the HTML file (Not external file) -->
+    <!-- <style>
+      .outline-box {
+        outline: 3px solid red;
+      }
+    </style> -->
+    <link rel="stylesheet" href="inline-vs-block.css" />
   </head>
   <body>
     <section>
       <!-- Block Elements -->
+      <h2>Block Elements</h2>
+      <!-- If you find yourself repeating styling code you need to make it a class -->
+      <!--
+        Example of inline styling
+        <p style="outline: 3px solid red">This is a paragraph block</p> 
+    -->
+      <p class="outline-box">This is a paragraph block</p>
+      <p class="outline-box">This is a paragraph block</p>
+
+      <ul>
+        <li>Block Level elements always start a new line</li>
+        <li>It will take up entire width of the parent</li>
+      </ul>
+    </section>
+
+    <section>
+      <!-- Inline Elements -->
+      <hr />
+      <h2>Inline Elements</h2>
+      <ul>
+        <li>An inline element does not start a new line</li>
+        <li>An inline element only takes up as much width as nescessary.</li>
+      </ul>
+      <p>
+        The very first President of the United States was
+        <a href="#" class="outline-box">Geroge Washington</a>
+      </p>
+
+      <h3>Common Tags that are Inline</h3>
+      <ul>
+        <li>span</li>
+        <li>strong - This an example of <strong>STRONG</strong> tags</li>
+        <li>em</li>
+        <li>i tags</li>
+      </ul>
     </section>
   </body>
 </html>
