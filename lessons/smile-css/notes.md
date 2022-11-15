@@ -1,0 +1,5 @@
+- create an index.html
+- create a index.css
+- add boiler plate to index.html (! + tab)
+- link the styles sheet to the index.html
+- make the body background of the html #eee for the color
