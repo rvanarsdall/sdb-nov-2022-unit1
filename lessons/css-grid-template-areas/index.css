@@ -8,4 +8,30 @@
 .wrapper {
   display: grid;
   gap: 10px;
+  /* 400px auto width 400px */
+  grid-template-columns: 400px auto 400px;
+  grid-template-areas:
+    "header header header"
+    "sidebar content sidebar2"
+    "footer footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.sidebar2 {
+  grid-area: sidebar2;
+}
+
+.content {
+  grid-area: content;
+}
+
+.footer {
+  grid-area: footer;
 }
