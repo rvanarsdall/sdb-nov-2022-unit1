@@ -4,3 +4,32 @@
   --secondary: white;
   color: var(--secondary);
 }
+h1 {
+  font-family: "Arvo", serif;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 2.5rem 3.5rem;
+}
+
+.header-image {
+  height: 500px;
+  border: 50px solid var(--primary);
+}
+
+.header-text {
+  font-size: 6.5rem;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 1rem;
+}
+
+.header-text:nth-child(1) {
+  color: var(--primary);
+}
+.header-text-group {
+  margin-left: auto;
+  padding: 4.5rem;
+}
