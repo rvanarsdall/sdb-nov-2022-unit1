@@ -1,0 +1,11 @@
+.box {
+  background-color: tomato;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 45px;
+}
+
+.wrapper {
+  display: grid;
+  gap: 10px;
+}
