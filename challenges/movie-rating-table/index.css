@@ -1,0 +1,27 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 0.5em;
+  background-color: lightskyblue;
+}
+
+th,
+td {
+  padding: 0.5em;
+}
+
+.table-row:nth-child(even) {
+  background-color: #eee !important;
+}
+table {
+  margin: auto;
+}
+
+#movies {
+  text-align: center;
+}
+
+.title {
+  font-style: italic;
+}
