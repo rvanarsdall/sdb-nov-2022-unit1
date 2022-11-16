@@ -37,4 +37,13 @@ body {
   top: 16px;
   left: 16px;
   position: relative;
+  border-radius: 0 0 45px 45px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  background-color: tomato;
 }
