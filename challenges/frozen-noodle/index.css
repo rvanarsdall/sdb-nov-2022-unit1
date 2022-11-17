@@ -66,3 +66,21 @@ h3 {
 .btn-100 {
   min-width: 100%;
 }
+
+/* PRODUCTS */
+
+.wrapper-food-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.food-display {
+  padding: 2rem;
+}
+
+.food-display > img {
+  min-width: 400px;
+  width: 100%;
+}
