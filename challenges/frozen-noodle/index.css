@@ -92,8 +92,15 @@ h3 {
   }
 
   .header-text-group {
-    margin-left: 0;
-    padding: 4.5rem;
+    margin-left: auto;
+    padding: 0px;
+    text-align: center;
+  }
+  .btn-100 {
+    min-width: auto;
+  }
+
+  .header-text {
     text-align: center;
   }
 }
