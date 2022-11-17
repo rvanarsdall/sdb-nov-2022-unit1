@@ -4,8 +4,18 @@
   --secondary: white;
   color: var(--secondary);
 }
-h1 {
+h1,
+h2,
+h3 {
   font-family: "Antonio", sans-serif;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 25px;
 }
 .wrapper {
   display: grid;
