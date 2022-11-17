@@ -5,7 +5,7 @@
   color: var(--secondary);
 }
 h1 {
-  font-family: "Arvo", serif;
+  font-family: "Antonio", sans-serif;
 }
 .wrapper {
   display: grid;
@@ -23,7 +23,7 @@ h1 {
   font-size: 6.5rem;
   text-transform: uppercase;
   text-align: right;
-  line-height: 1rem;
+  line-height: 2rem;
 }
 
 .header-text:nth-child(1) {
@@ -32,4 +32,27 @@ h1 {
 .header-text-group {
   margin-left: auto;
   padding: 4.5rem;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+.btn-lg {
+  font-size: 20px;
+  padding: 1.5em;
+}
+
+.btn {
+  font-size: 18px;
+  padding: 1em;
+}
+
+.btn-100 {
+  min-width: 100%;
 }
