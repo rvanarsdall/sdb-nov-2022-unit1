@@ -1,3 +1,20 @@
 body {
   background-color: aqua;
 }
+
+.container {
+  margin: 25px 50px;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+.col-4 {
+  flex: 33.3%;
+}
+
+.col-8 {
+  flex: 66.6%;
+}
