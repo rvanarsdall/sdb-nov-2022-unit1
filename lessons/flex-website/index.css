@@ -19,3 +19,12 @@ body {
 .col-8 {
   flex: 66.6%;
 }
+
+@media screen and (max-width: 680px) {
+  .row {
+    flex-direction: column;
+  }
+  .container {
+    margin: 0;
+  }
+}
